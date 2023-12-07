@@ -1,0 +1,75 @@
+﻿<Window x:Class="posuda.spisok_tvrvxaml"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:posuda"
+        mc:Ignorable="d"
+        Title="spisok_tvrvxaml" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="379*"/>
+            <ColumnDefinition Width="421*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="88" Source="/logo.png" RenderTransformOrigin="0.678,0.497" Margin="34,9,0,0"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="71,80,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="224,80,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="370,80,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="137,80,0,0" VerticalAlignment="Top" Width="190" Source="/Rectangle 844444444444.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="187,80,0,0" VerticalAlignment="Top" Width="427" Source="/Rectangle 844444444444.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="71,195,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="224,195,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="370,195,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="137,195,0,0" VerticalAlignment="Top" Width="190" Source="/Rectangle 844444444444.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="187,195,0,0" VerticalAlignment="Top" Width="427" Source="/Rectangle 844444444444.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="71,310,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="224,310,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="370,310,0,0" VerticalAlignment="Top" Width="428" Source="/Rectangle 844444444444.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="137,310,0,0" VerticalAlignment="Top" Width="190" Source="/Rectangle 844444444444.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="110" Margin="187,310,0,0" VerticalAlignment="Top" Width="427" Source="/Rectangle 844444444444.png" Grid.Column="1"/>
+        <Ellipse HorizontalAlignment="Left" Height="48" Margin="291,19,0,0" Stroke="Black" VerticalAlignment="Top" Width="62" Fill="#FF4A8C51" Grid.Column="1"/>
+        <Button Content="" HorizontalAlignment="Left" Height="32" Margin="297,26,0,0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="-0.097,0.67" BorderBrush="#FF4A8C51" Grid.Column="1" Click="Button_Click_4">
+            <Button.Background>
+                <ImageBrush ImageSource="/2222.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Администратор" Margin="275,-3,50,413" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="95" Margin="101,87,0,0" VerticalAlignment="Top" Width="99" Source="/D036H2.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="101,203,0,0" VerticalAlignment="Top" Width="99" Source="/D548T5.jpg" RenderTransformOrigin="0.692,0.723"/>
+        <Image HorizontalAlignment="Left" Height="94" Margin="101,318,0,0" VerticalAlignment="Top" Width="99" Source="/D644G3.jpg"/>
+        <Label Content="Список товаров" HorizontalAlignment="Left" Height="23" Margin="349,-2,0,0" VerticalAlignment="Top" Width="181" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="78" Margin="247,117,0,0" VerticalAlignment="Top" Width="189" Source="/Rectangle 32.png" Grid.ColumnSpan="2"/>
+        <Label Content="Сковорода НЕВА &#xA;МЕТАЛЛ ПОСУДА &#xA;Домашняя 7424,&#xA; съемная ручка, 24 см" HorizontalAlignment="Left" Height="74" Margin="271,113,0,0" VerticalAlignment="Top" Width="153" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="82" Margin="247,232,0,0" VerticalAlignment="Top" Width="189" Source="/Rectangle 32.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="82" Margin="247,347,0,0" VerticalAlignment="Top" Width="189" Source="/Rectangle 32.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="82" Margin="96,117,0,0" VerticalAlignment="Top" Width="188" Source="/Rectangle 32.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="82" Margin="88,232,0,0" VerticalAlignment="Top" Width="189" Source="/Rectangle 32.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="82" Margin="96,347,0,0" VerticalAlignment="Top" Width="188" Source="/Rectangle 32.png" Grid.Column="1"/>
+        <Label Content="&#xA;Производитель: Нева&#xA;Цена: 1270" HorizontalAlignment="Left" Height="66" Margin="114,113,0,0" VerticalAlignment="Top" Width="163" Grid.Column="1"/>
+        <Label Content="Набор посуды Tefal&#xA; Ingenio Red 04162820 3&#xA; пр. красный&#xA;&#xA;" HorizontalAlignment="Left" Height="74" Margin="271,236,0,0" VerticalAlignment="Top" Width="153" Grid.ColumnSpan="2"/>
+        <Label Content="Производтель:Tefal&#xA;Цена: 2700" Height="53" Margin="114,241,168,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Набор кастрюль Эмаль&#xA; Дача 2-3194/4 белыйй&#xA;&#xA;" HorizontalAlignment="Left" Height="74" Margin="268,357,0,0" VerticalAlignment="Top" Width="153" Grid.ColumnSpan="2"/>
+        <Label Content="&#xA;Производитель:Эмаль&#xA;Цена: 2700" Height="74" Margin="120,343,161,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="16" Margin="244,92,0,0" VerticalAlignment="Top" Width="328" Source="/Rectangle 36.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="16" Margin="53,92,0,0" VerticalAlignment="Top" Width="329" Source="/Rectangle 36.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="16" Margin="247,208,0,0" VerticalAlignment="Top" Width="328" Source="/Rectangle 36.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="16" Margin="50,208,0,0" VerticalAlignment="Top" Width="329" Source="/Rectangle 36.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="16" Margin="247,318,0,0" VerticalAlignment="Top" Width="328" Source="/Rectangle 36.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="16" Margin="53,318,0,0" VerticalAlignment="Top" Width="329" Source="/Rectangle 36.png" Grid.Column="1"/>
+        <Label Content="Сковорода" HorizontalAlignment="Left" Height="30" Margin="21,87,0,0" VerticalAlignment="Top" Width="373" Grid.Column="1"/>
+        <Label Content="Набор посуды" HorizontalAlignment="Left" Height="30" Margin="21,201,0,0" VerticalAlignment="Top" Width="109" Grid.Column="1"/>
+        <Label Content="Набор кастрюль" HorizontalAlignment="Left" Height="30" Margin="21,311,0,0" VerticalAlignment="Top" Width="137" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="39" Margin="291,152,0,0" VerticalAlignment="Top" Width="86" Source="/Rectangle 100.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="39" Margin="290,267,0,0" VerticalAlignment="Top" Width="86" Source="/Rectangle 100.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="39" Margin="291,380,0,0" VerticalAlignment="Top" Width="86" Source="/Rectangle 100.png" Grid.Column="1"/>
+        <Label Content="В наличии" HorizontalAlignment="Left" Height="23" Margin="301,152,0,0" VerticalAlignment="Top" Width="59" Grid.Column="1"/>
+        <Label Content="В наличии" HorizontalAlignment="Left" Height="23" Margin="305,267,0,0" VerticalAlignment="Top" Width="58" Grid.Column="1"/>
+        <Label Content="В наличии" HorizontalAlignment="Left" Height="23" Margin="303,376,0,0" VerticalAlignment="Top" Width="59" Grid.Column="1"/>
+        <Button Content="Редактировать" HorizontalAlignment="Left" Height="35" Margin="291,100,0,0" VerticalAlignment="Top" Width="78" Background="#FF4A8D51" Grid.Column="1" Click="Button_Click_1"/>
+        <Button Content="Редактировать" HorizontalAlignment="Left" Height="35" Margin="290,214,0,0" VerticalAlignment="Top" Width="78" Background="#FF4A8D51" Grid.Column="1" Click="Button_Click_2"/>
+        <Button Content="Редактировать" HorizontalAlignment="Left" Height="35" Margin="289,326,0,0" VerticalAlignment="Top" Width="78" Background="#FF4A8D51" Grid.Column="1" Click="Button_Click_3"/>
+        <Button Content="Добавить товар" HorizontalAlignment="Left" Height="32" Margin="163,26,0,0" VerticalAlignment="Top" Width="153" FontSize="14" BorderBrush="#FF4A8D51" Foreground="White" Background="#FF4A8D51" Click="Button_Click"/>
+        <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="441" VerticalAlignment="Center" Width="800"/>
+
+    </Grid>
+</Window>
